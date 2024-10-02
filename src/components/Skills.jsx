@@ -84,7 +84,7 @@ const SkillGroup = ({title, classname, skills}) => {
                 <div className={styles["skillgroup-grid-container"]}>
                     <div className={styles["skillgroup-grid"]}>
                         {skills.map((skill) => {
-                            <Skill key={skill.str} {...skill} />
+                            return <Skill key={skill.str} {...skill} />
                         })}
                     </div>
                 </div>
@@ -98,8 +98,8 @@ const Skills = () => {
         <div className={styles["skills-section-container"]}>
             <h2>Software Skills</h2>
             <div className={styles["skillgroup-container"]}>
-                {SkillGroups.map((group) => {
-                    <SkillGroup key={group.title} {...group} />
+                {skillGroups.map((group) => {
+                    return <SkillGroup key={group.title} {...group} />
                 })}
             </div>
         </div>

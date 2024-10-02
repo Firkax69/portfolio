@@ -1,5 +1,5 @@
 // need to import personla front photo;
-import styles from '/Hero.module.css';
+import styles from './Hero.module.css';
 import email from '../assets/email-outline.svg';
 
 const Tagline = () => {
