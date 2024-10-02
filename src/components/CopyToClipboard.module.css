@@ -1,0 +1,19 @@
+.copy-to-clipboard-wrapper {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.popup {
+    position: absolute;
+    bottom: -14px; /* Adjust based on your needs */
+    left: calc(100% + 6px);
+    /* transform: translateX(-50%); */
+    background-color: #0000008c;
+    color: inherit;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 100;
+}

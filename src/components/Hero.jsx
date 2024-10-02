@@ -1,6 +1,7 @@
 // need to import personla front photo;
 import styles from './Hero.module.css';
 import email from '../assets/email-outline.svg';
+import CopyToClipboard from './CopyToClipboard';
 
 const Tagline = () => {
     return (
@@ -20,7 +21,9 @@ const Headshot = () => {
             <ul className={styles["external-links-container"]}>
                 <li><a href="https://github.com/sourdoughbredd"><img className={styles} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Github logo" /></a></li>
                 <li><a href="https://www.linkedin.com/in/kovalevskyi/"><img className={styles.icon} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" alt="LinkedIn logo" /></a></li>
-                <li><a href=""><img className={styles.icon} src={email} alt="" /></a></li>
+                <li>
+                    {/* Replace a with CopyToClipboard with image inside and test so it works , code should be correct */}
+                    <a href=""><img className={styles.icon} src={email} alt="" /></a></li>
             </ul>
         </div>
     )
