@@ -1,0 +1,14 @@
+.about-me-container h2 {
+    font-size: var(--section-title-font-size);
+    margin: 0;
+}
+
+.paragraphs {
+    display: flex;
+    gap: 36px;
+    font-size: 1.1rem;
+}
+
+.paragraphs > div {
+    flex-grow: 1;
+}
