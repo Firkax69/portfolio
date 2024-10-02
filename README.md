@@ -7,9 +7,8 @@ My personal website showcasing my previous projects, built using HTML, CSS & Rea
 
 Features
     Built with modern JavaScript, React and SCSS
-    Animations made using Framer Motion
     Responsive design
-    A React implementation of Pavel Dobryakov's WebGL Fluid Simulation
+    A React implementation
 
 To run localy
 

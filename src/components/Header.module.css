@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: inherit;
+    flex-grow: 1;
+}
+
+.header .logo {
+    margin: 0;
+    font-size: 2 rem;
+    text-wrap: nowrap;
+}
+
+.header .nav ul {
+    margin: 0;
+    display: flex;
+}
+
+.header .nav li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+.header a {
+    transition: 0.3s ease;
+ }
