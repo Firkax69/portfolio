@@ -12,7 +12,6 @@ const Tagline = () => {
     )
 }
 
-// need to be renamed for my name
 const Headshot = () => {
     return (
         <div className={styles["headshot-container"]}>
