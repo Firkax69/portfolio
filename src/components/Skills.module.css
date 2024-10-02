@@ -13,7 +13,7 @@
     display: grid;
     gap: 12px;
     grid-template-columns: 1fr 0.7fr 1fr;
-    grid-template-rows: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .skillgroups-container .skillgroup:nth-child(1) {
@@ -39,10 +39,6 @@
     background-color: rgba(255, 255, 255, 0.04);
     /* box-shadow: 0 4px 8px rgba(0, 112, 204, 0.2); */
     /* box-shadow: 0 4px 20px rgba(74, 74, 74, 0.3), 0 6px 20px rgba(72, 72, 72, 0.3); */
-}
-
-.languages-skillgroup-container .skillgroup {
-    flex-grow: 1;
 }
 
 .skillgroup-grid-container {
