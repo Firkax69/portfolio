@@ -1,4 +1,4 @@
-import styles from "./Showcase.module.css";
+import styles from "./FeaturedProjects.module.css";
 import projects from "../data/projects.js";
 
 const Project = ({
@@ -23,14 +23,18 @@ const Project = ({
                             <li key={feature}>{feature}</li>
                         ))}
                     </ul>
-                    <h4>Tech Stack</h4>
+                    
+                    <div className={styles["tech-stack-container"]}>
+                        <h4>Tech Stack</h4>
 
-                    {/* ????? working ????? */}
-                    <span>
-                        {tech.reduce((acc, curr, idx) => {
-                            return acc + " " + curr + (idx < tech.length - 1 ? "," : "");
-                        })}
-                    </span>
+                        {/* ????? working ????? */}
+                        <span>
+                            {tech.reduce((acc, curr, idx) => {
+                                return acc + " " + curr + (idx < tech.length - 1 ? "," : "");
+                            })}
+                        </span>
+                    </div>
+
 
                     <div className={styles.buttons}>
                         <a href={live_link}>Live Preview</a>
@@ -43,9 +47,9 @@ const Project = ({
     )
 };
 
-const Showcase = () => {
+const FeaturedProjects = () => {
     return (
-        <div className={styles["showcase-container"]}>
+        <div className={styles["section-container"]}>
             <h2>Featured Projects</h2>
             <div className={styles["projects-container"]}>
                 {projects.map((project) => {
@@ -56,4 +60,4 @@ const Showcase = () => {
     )
 }
 
-export default Showcase;
+export default FeaturedProjects;

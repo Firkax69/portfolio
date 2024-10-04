@@ -6,7 +6,7 @@ import Header from './components/Header.jsx';
 import Skills from './components/Skills.jsx';
 import './index.css'
 import Hero from './components/Hero.jsx';
-import Showcase from './components/Showcase.jsx';
+import FeaturedProjects from './components/FeaturedProjects.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,7 +15,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Header/> */}
     {/* <Hero/> */}
     {/* <Skills/> */}
-    <Showcase/>
+    <FeaturedProjects/>
 
   </StrictMode>,
 )

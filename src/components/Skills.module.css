@@ -6,6 +6,7 @@
     font-size: 1.4rem;
     text-align: center;
     margin: 0 0 20px;
+    font-weight: 400;
 }
 
 .skillgroups-container {
@@ -37,8 +38,6 @@
     border: 2px dotted rgba(255, 255, 255, 0.564);
     background-color: inherit;
     background-color: rgba(255, 255, 255, 0.04);
-    /* box-shadow: 0 4px 8px rgba(0, 112, 204, 0.2); */
-    /* box-shadow: 0 4px 20px rgba(74, 74, 74, 0.3), 0 6px 20px rgba(72, 72, 72, 0.3); */
 }
 
 .skillgroup-grid-container {

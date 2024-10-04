@@ -35,7 +35,7 @@ const projects = [
         live_link: "https://cv-form-kovalevskyi.netlify.app/",
     },
 
-
+    // Need to add a few more projects, screens already added for WEather API and MessageBoard;
 ];
 
 export default projects;

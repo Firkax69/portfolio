@@ -1,4 +1,4 @@
-.showcase-container h2 {
+.section-container h2 {
     font-size: var(--section-title-font-size);
     margin-bottom: 3rem;
 }
@@ -12,20 +12,6 @@
 .project h3 {
     font-size: 1.7rem;
     font-weight: 400;
-}
-
-.screenshot {
-    object-fit: cover;
-    object-position: left;
-    width: 38%;
-    border-radius: 12px;
-    /* box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.233); */ 
-    box-shadow: 2px 2px 4px 4px rgba(255, 0, 0, 0.233); /* for debug purposes */
-    filter: invert(0.08);
-}
-
-.project:last-child .screenshot {
-    max-height: 480px;
 }
 
 .project-content-container {
@@ -57,10 +43,6 @@
     font-size: 1.2rem;
 }
 
-.project-info-container ul {
-    margin-bottom: 1rem;
-}
-
 .project-info-container h4 + span {
     display: inline-block; /* or block */
     margin-bottom: 2rem;
@@ -70,6 +52,13 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+
+.tech-stack-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
 }
 
 .buttons a {
@@ -91,4 +80,18 @@
  .buttons a:hover {
     color: inherit;
     background-color: #0055cc;
+}
+
+.screenshot {
+    flex-grow: 1;
+    object-fit: cover;
+    object-position: left;
+    width: 40%;
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.233);
+    filter: invert(0.08);
+}
+
+.project:last-child .screenshot {
+    height: 525px;
 }
