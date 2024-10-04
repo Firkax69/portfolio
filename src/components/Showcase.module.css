@@ -19,7 +19,8 @@
     object-position: left;
     width: 38%;
     border-radius: 12px;
-    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.233);
+    /* box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.233); */ 
+    box-shadow: 2px 2px 4px 4px rgba(255, 0, 0, 0.233); /* for debug purposes */
     filter: invert(0.08);
 }
 

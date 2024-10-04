@@ -1,5 +1,5 @@
-import CVgenerator from "../assets/project-screenshots/CVgenerator-screenshot.png";
-
+import CVgenerator from "../data/CVgeneratorScreenshot.png";
+import ToDoList from "../data/ToDo-list-screen.png";
 
 const projects = [
     {
@@ -12,7 +12,7 @@ const projects = [
             "Delete Tasks",
         ],
         tech: ["HTML", "CSS", "Javascript"],
-        // img: **need to add**,
+        img: ToDoList,
         repo_link: "",
         live_link: "",
     },

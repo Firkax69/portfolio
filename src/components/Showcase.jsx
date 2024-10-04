@@ -13,7 +13,7 @@ const Project = ({
     return (
         <div className={styles.project}>
             <div className={styles["project-content-container"]}>
-                <img src={img} alt="" className={styles.screenshot} />
+                <img src={img} alt="Project screenshot" className={styles.screenshot} />
                 <div className={styles["project-info-container"]}>
                     <h3>{title}</h3>
                     <p>{description}</p>
