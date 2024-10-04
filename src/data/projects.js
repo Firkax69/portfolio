@@ -1,4 +1,5 @@
-// import images required
+import CVgenerator from "../assets/project-screenshots/CVgenerator-screenshot.png";
+
 
 const projects = [
     {
@@ -25,7 +26,7 @@ const projects = [
             "Dynamic Form Handling",
         ],
         tech: ["HTML/CSS/JS", "React", "CSS Modules"],
-        // img: **need to add**,
+        img: CVgenerator,
         repo_link: "",
         live_link: "",
     },

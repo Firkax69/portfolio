@@ -8,7 +8,6 @@ import cssModulesIcon from "../assets/icons/css-modules-icon.png";
 import nodeIcon2 from "../assets/icons/node-icon2.svg";
 import expressIcon from "../assets/icons/express-icon.svg";
 import databaseIcon from "../assets/icons/database-icon.svg";
-import mySqlIcon from "../assets/icons/mysql-icon.svg";
 import gitIcon from "../assets/icons/git-icon.svg";
 import githubIcon from "../assets/icons/github-icon.svg";
 import webpackIcon from "../assets/icons/webpack-icon.svg";
@@ -41,7 +40,7 @@ const skillGroups = [
         classname: "backend",
         skills: [
             {str: "NodeJS", img: nodeIcon2, invert_img: false},
-            {str: "Express", img: expressIcon, invert_img: false},
+            {str: "Express", img: expressIcon, invert_img: true},
         ],
     },
 
@@ -49,8 +48,8 @@ const skillGroups = [
         title: "Database",
         classname: "database",
         skills: [
-            {str: "SQL", img: databaseIcon, invert_img: false},
-            {str: "Express", img: expressIcon, invert_img: false},
+            {str: "SQL", img: databaseIcon, invert_img: true},
+            {str: "Express", img: expressIcon, invert_img: true},
         ],
     },
 
@@ -59,7 +58,7 @@ const skillGroups = [
         classname: "devops",
         skills: [
             {str: "Git", img: gitIcon, invert_img: false},
-            {str: "Github", img: githubIcon, invert_img: false},
+            {str: "Github", img: githubIcon, invert_img: true},
             {str: "Webpack", img: webpackIcon, invert_img: false},
         ],
     }

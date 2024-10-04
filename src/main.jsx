@@ -10,12 +10,13 @@ import Showcase from './components/Showcase.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App/>
+    
+    {/* <App/> */}
     {/* <Header/> */}
-    <Hero/>
+    {/* <Hero/> */}
     {/* <Skills/> */}
+    <Showcase/>
 
-    {/* <Showcase/> */}
   </StrictMode>,
 )
 
