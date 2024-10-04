@@ -15,7 +15,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Header/> */}
     {/* <Hero/> */}
     {/* <Skills/> */}
-    <FeaturedProjects/>
+    {/* <FeaturedProjects/> */}
 
   </StrictMode>,
 )
