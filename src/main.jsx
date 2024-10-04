@@ -12,10 +12,10 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App/>
     {/* <Header/> */}
-    {/* <Hero/>
-    <Skills/> */}
+    <Hero/>
+    {/* <Skills/> */}
 
-    <Showcase/>
+    {/* <Showcase/> */}
   </StrictMode>,
 )
 

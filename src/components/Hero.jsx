@@ -2,6 +2,7 @@
 import styles from './Hero.module.css';
 import email from '../assets/email-outline.svg';
 import CopyToClipboard from './CopyToClipboard';
+import headshot from "../assets/IMG_0725.JPG";
 
 const Tagline = () => {
     return (
@@ -16,10 +17,9 @@ const Tagline = () => {
 const Headshot = () => {
     return (
         <div className={styles["headshot-container"]}>
-            {/* need to add src and alt*/}
-            <img className={styles.headshot} src='' alt="" />
+            <img className={styles.headshot} src={headshot} alt="Headshot of Ihor Kovalevskyi for CV application" />
             <ul className={styles["external-links-container"]}>
-                <li><a href="https://github.com/sourdoughbredd"><img className={styles} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Github logo" /></a></li>
+                <li><a href="https://github.com/sourdoughbredd"><img className={styles.icon} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Github logo" /></a></li>
                 <li><a href="https://www.linkedin.com/in/kovalevskyi/"><img className={styles.icon} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" alt="LinkedIn logo" /></a></li>
                 <li>
                     {/* Replace a with CopyToClipboard with image inside and test so it works , code should be correct */}
