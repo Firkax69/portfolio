@@ -79,4 +79,4 @@ const projects = [
     // Need to add a few more projects, screens already added for WEather API and MessageBoard;
 ];
 
-export default featuredProjects;
+export default projects;
