@@ -11,10 +11,13 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 
+// Import the new ProjectDetails component
+// import ProjectDetails from "./pages/ProjectDetails";   
+
 const pageVariants = {
   initial: {
     opacity: 0,
-    x: "-100vw",
+    x: "+100vw",
   },
   in: {
     opacity: 1,
@@ -22,14 +25,14 @@ const pageVariants = {
   },
   out: {
     opacity: 0,
-    x: "100vw",
+    x: "-100vw",
   },
 };
 
 const pageTransition = {
   type: "tween",
   ease: "easeInOut",
-  duration: 0.5,
+  duration: 0.3,
 };
 
 const Layout = () => {
@@ -70,6 +73,21 @@ const Layout = () => {
                 </motion.div>
               }
             />
+
+            {/* <Route
+              path="projects/:projectName"
+              element={
+                <motion.div
+                  initial="initial"
+                  animate="in"
+                  exit="out"
+                  variants={pageVariants}
+                  transition={pageTransition}
+                >
+                  <ProjectDetails/>
+                </motion.div>
+              }
+            /> */}
           </Routes>
         </AnimatePresence>
       </div>
