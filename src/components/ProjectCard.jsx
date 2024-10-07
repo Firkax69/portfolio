@@ -8,9 +8,10 @@ const Project = ({
     tech,
     repo_link,
     live_link,
+    name,
 }) => {
     return (
-        <div className={styles.project}>
+        <div className={`${styles.project} ${styles[name]}`} name={name}>
             <div className={styles["project-content-container"]}>
                 <img src={img} alt="Project screenshot" className={styles.screenshot} />
                 <div className={styles["project-info-container"]}>

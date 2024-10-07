@@ -19,6 +19,7 @@ const projects = [
         repo_link: "https://github.com/Firkax69/todo-list-project",
         live_link: "https://firkax69.github.io/todo-list-project/",
         featured: true,
+        name: "to-do-list",
     },
 
     {
@@ -35,6 +36,7 @@ const projects = [
         repo_link: "https://github.com/Firkax69/cv-app-odin", 
         live_link: "https://cv-form-kovalevskyi.netlify.app/",
         featured: true,
+        name: "resume-builder",
     },
 
     {
@@ -50,6 +52,7 @@ const projects = [
         repo_link: "https://github.com/Firkax69/weather-app", 
         live_link: "https://firkax69.github.io/weather-app/",
         featured: true,
+        name: "weather-api",
     },
 
     {
@@ -65,6 +68,7 @@ const projects = [
         repo_link: "https://github.com/Firkax69/node-message-odin", 
         live_link: "https://parallel-buzzard-ihorkovalevskyi-97c43156.koyeb.app/",
         featured: true,
+        name: "message-board",
     },
 
     // {
