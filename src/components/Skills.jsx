@@ -97,9 +97,21 @@ const Skills = () => {
         <div className={styles["skills-section-container"]}>
             <h2 className="section-title">Software Skills</h2>
             <div className={styles["skillgroup-container"]}>
-                {skillGroups.map((group) => {
+                {/* {skillGroups.map((group) => {
                     return <SkillGroup key={group.title} {...group} />
-                })}
+                })} */}
+
+                <div className={`${styles["skillgroups-row"]}`}>
+                    <SkillGroup {...skillGroups[0]} />
+                </div>
+                <div className={`${styles["skillgroups-row"]}`}>
+                    <SkillGroup {...skillGroups[1]} />
+                    <SkillGroup {...skillGroups[2]} />
+                </div>
+                <div className={`${styles["skillgroups-row"]}`}>
+                    <SkillGroup {...skillGroups[3]} />
+                    <SkillGroup {...skillGroups[4]} />
+                </div>
             </div>
         </div>
     )
