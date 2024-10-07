@@ -18,6 +18,7 @@ const projects = [
         img: ToDoList,
         repo_link: "https://github.com/Firkax69/todo-list-project",
         live_link: "https://firkax69.github.io/todo-list-project/",
+        featured: true,
     },
 
     {
@@ -33,6 +34,7 @@ const projects = [
         img: CVgenerator,
         repo_link: "https://github.com/Firkax69/cv-app-odin", 
         live_link: "https://cv-form-kovalevskyi.netlify.app/",
+        featured: true,
     },
 
     {
@@ -47,6 +49,7 @@ const projects = [
         img: WeatherApp,
         repo_link: "https://github.com/Firkax69/weather-app", 
         live_link: "https://firkax69.github.io/weather-app/",
+        featured: true,
     },
 
     {
@@ -61,6 +64,7 @@ const projects = [
         img: MessageBoard,
         repo_link: "https://github.com/Firkax69/node-message-odin", 
         live_link: "https://parallel-buzzard-ihorkovalevskyi-97c43156.koyeb.app/",
+        featured: true,
     },
 
     // {
@@ -79,4 +83,6 @@ const projects = [
     // Need to add a few more projects, screens already added for WEather API and MessageBoard;
 ];
 
-export default projects;
+const featuredProjects = projects.filter((project) => project.featured);
+
+export default {projects, featuredProjects};
