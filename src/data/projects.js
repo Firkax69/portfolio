@@ -1,7 +1,7 @@
 import CVgenerator from "../data/CVgeneratorScreenshot.png";
-import ToDoList from "../data/ToDo-list-screen.png";4
-import MessageBoard from "../data/MessageBoard-screenshots.png"
-import WeatherApp from "../data/weatherApp-screen.png"
+import ToDoList from "../data/ToDo-list-screen.png";
+import MessageBoard from "../data/MessageBoard-screenshots.png";
+import WeatherApp from "../data/weatherApp-screen.png";
 
 const projects = [
     {
@@ -35,7 +35,48 @@ const projects = [
         live_link: "https://cv-form-kovalevskyi.netlify.app/",
     },
 
+    {
+        title: "Weather API App",
+        description: "Weather app that uses the OpenWeatherMap API. A JavaScript project from the Odin Project Curriculum.",
+        features: [
+            "API Integration: Implemented the OpenWeatherMap API for dynamic weather data retrieval",
+            "Responsive Location Search: Developed a user-friendly interface to search for specific weather conditions by location",
+            "Asynchronous Programming: Utilized promises and async/await to manage API calls and improve code efficiency.",
+        ],
+        tech: ["HTML/CSS/JS", "Webpack", "OpenWeatherMap API"],
+        img: WeatherApp,
+        repo_link: "https://github.com/Firkax69/weather-app", 
+        live_link: "https://firkax69.github.io/weather-app/",
+    },
+
+    {
+        title: "Message Board",
+        description: "The Message Board allows users to create, open and read new messages. The project was build using simple Express, NodeJS and JavsScript",
+        features: [
+            "Web Application Development: Built an interactive message board using Node.js and Express for server-side functionality.",
+            "Template Engine Integration: Implemented EJS for dynamic HTML rendering, enhancing the user interface.",
+            "Middleware Utilization: Configured Express middleware (express.urlencoded) to parse incoming form data effectively.",
+        ],
+        tech: ["JavaScript", "Express", "NodeJS"],
+        img: MessageBoard,
+        repo_link: "https://github.com/Firkax69/node-message-odin", 
+        live_link: "https://parallel-buzzard-ihorkovalevskyi-97c43156.koyeb.app/",
+    },
+
+    // {
+    //     title: ,
+    //     description: 
+    //         ,
+    //     features: [
+            
+    //     ],
+    //     tech: [],
+    //     img: ,
+    //     repo_link: , 
+    //     live_link: ,
+    // },
+
     // Need to add a few more projects, screens already added for WEather API and MessageBoard;
 ];
 
-export default projects;
+export default featuredProjects;
