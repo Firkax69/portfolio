@@ -4,6 +4,14 @@
     font-weight: 400;
 }
 
+.project h4 {
+    font-size: 1.2rem;
+}
+
+.project h4:first-of-type {
+    margin-top: 1rem;
+}
+
 .project-content-container {
     display: flex;
     flex-direction: row;
@@ -14,54 +22,71 @@
     flex-direction: row-reverse;
 }
 
-.project-info-container > * {
-    margin: 0;
-}
-
-.project-info-container p {
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-    font-weight: 200;
-}
-
-.project-info-container h4 {
-    margin-bottom: 4px;
-    font-size: 1.2rem;
-}
-
-.project-info-container h4 + span {
-    display: inline-block; /* or block */
-    margin-bottom: 2rem;
-}
-
-.project-info-container .buttons {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.tech-stack-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.2rem;
-}
-
-.buttons a:hover {
-    color: inherit;
-    background-color: #0055cc;
-}
-
 .screenshot {
     /* Images are not displayed fully, either CSS every image separately or make 
     screenshot of the same size so can style them all in one code in this section */
-    flex-grow: 1;
+    
+    
+    /* flex-grow: 1; */
     object-fit: cover;
     object-position: left;
     width: 40%;
     border-radius: 12px;
     box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.233);
     filter: invert(0.08);
+}
+
+.project-info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-info-container > * {
+    margin: 0;
+}
+
+.description-long,
+.description-short {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.description-long {
+    display: initial;
+}
+
+.description-short {
+    display: none;
+}
+
+
+.tech-stack-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.tech-stack-container h4 {
+    margin-top: 1rem;
+    margin-bottom: 4px;
+}
+
+.tech-stack-container span {
+    display: inline-block; /* or block */
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.buttons a:hover {
+    color: inherit;
+    background-color: #0055cc;
 }
 
 .buttons a {
@@ -81,30 +106,53 @@
 
 @media (max-width: 1064px) {
     .project {
-      max-width: 600px;
-      /* border: 2px solid gray; */
+      height: 525px;
       border-radius: 24px;
       overflow: hidden;
       background-color: rgba(0, 0, 0, 0.242);
     }
 
     .project-content-container {
+      height: 525px;
       flex-direction: column;
+      gap: 18px;
     }
 
     .project:nth-child(odd) .project-content-container {
       flex-direction: column;
     }
 
+    .project h3 {
+        font-size: 1.4rem;
+    }
+
     .screenshot {
       width: 100%;
-      max-height: 400px;
+      height: 40%;
       border-radius: 0;
     }
 
+    .description-long {
+        display: none;
+    }
+
+    .description-short {
+        /* display: initial; */
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        /* Number of lines to show */
+        -webkit-line-clamp: 2; 
+        line-height: 1.5; /* Adjust the line-height if needed */
+        max-height: 3em; /* Line height * number of lines */
+    }
+
     .project-info-container {
-      padding: 48px 18px;
+      padding: 48px 18px 28px;
       padding-top: 0;
+      height: 60%;
     }
 
     .project-info-container > h4,
@@ -112,8 +160,13 @@
       display: none;
     }
 
-  }
 
-  /* @media (max-width: 750px) {
 
-  } */
+    .bottom-align {
+      /* justify-self: flex-end; */
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+}

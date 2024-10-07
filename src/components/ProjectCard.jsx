@@ -1,8 +1,18 @@
 import styles from "./ProjectCard.module.css"
 
+const Buttons = ({ live_link, repo_link }) => {
+    return (
+        <div className={styles.buttons}>
+            <a href={live_link}>Live Preview</a>
+            <a href={repo_link}>Github Repo</a>
+        </div>
+    )
+}
+
 const Project = ({
     title,
-    description,
+    description_short,
+    description_long,
     features,
     img,
     tech,
@@ -16,7 +26,8 @@ const Project = ({
                 <img src={img} alt="Project screenshot" className={styles.screenshot} />
                 <div className={styles["project-info-container"]}>
                     <h3>{title}</h3>
-                    <p>{description}</p>
+                    <p className={styles["description-long"]}>{description_long}</p>
+                    <p className={styles["description-short"]}>{description_short}</p>
                     <h4>Features</h4>
                     <ul>
                         {features.map((feature) => (
@@ -24,23 +35,18 @@ const Project = ({
                         ))}
                     </ul>
                     
-                    <div className={styles["tech-stack-container"]}>
-                        <h4>Tech Stack</h4>
-
-                        {/* ????? working ????? */}
-                        <span>
-                            {tech.reduce((acc, curr, idx) => {
+                    <div className={styles["bottom-align"]}>
+                        <div className={styles["tech-stack-container"]}>
+                            <h4>Tech Stack</h4>
+                            <span>
+                                {tech.reduce((acc, curr, idx) => {
                                 return acc + " " + curr + (idx < tech.length - 1 ? "," : "");
-                            })}
-                        </span>
+                                }, "")}
+                            </span>
+                        </div>
+
+                        <Buttons {...{live_link, repo_link}}/>
                     </div>
-
-
-                    <div className={styles.buttons}>
-                        <a href={live_link}>Live Preview</a>
-                        <a href={repo_link}>Github Repo</a>
-                    </div>
-
                 </div>
             </div>
         </div>

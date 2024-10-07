@@ -6,7 +6,8 @@ import WeatherApp from "../data/weatherApp-screen.png";
 const projects = [
     {
         title: "To-Do List",
-        description: 
+        description_short: "A simple frontend task tracking app built with vanilla HTML/CSS/JS.",
+        description_long: 
             "The To-Do List application allows users to manage their tasks efficiently. Users can add, edit, delete, and organize tasks into different projects. The application is built completely with vanilla HTML/CSS/JS and utilizes Webpack for module bundling.",
         features: [
             "Add Tasks: Users can add new tasks with a description.",
@@ -24,7 +25,8 @@ const projects = [
 
     {
         title: "Resumé Builder",
-        description: 
+        description_short: "A React app for automatically building a resume from form inputs",
+        description_long: 
             "The Resume Builder application allows users to create and customize their resumes through a user-friendly interface. This project showcases advanced React techniques, state management, form handling, and integration with Vite for a seamless development experience.",
         features: [
             "Real-Time Preview: Utilized React's component lifecycle to provide instant feedback on resume changes.",
@@ -41,7 +43,8 @@ const projects = [
 
     {
         title: "Weather API App",
-        description: "Weather app that uses the OpenWeatherMap API. A JavaScript project from the Odin Project Curriculum.",
+        description_short: "Simple weather app using API and webpack",
+        description_long: "Weather app that uses the OpenWeatherMap API. A JavaScript project from the Odin Project Curriculum.",
         features: [
             "API Integration: Implemented the OpenWeatherMap API for dynamic weather data retrieval",
             "Responsive Location Search: Developed a user-friendly interface to search for specific weather conditions by location",
@@ -57,7 +60,8 @@ const projects = [
 
     {
         title: "Message Board",
-        description: "The Message Board allows users to create, open and read new messages. The project was build using simple Express, NodeJS and JavsScript",
+        description_short: "A comprehensive NodeJS + Express beckend for managing a message board",
+        description_long: "The Message Board allows users to create, open and read new messages. The project was build using simple Express, NodeJS and JavsScript",
         features: [
             "Web Application Development: Built an interactive message board using Node.js and Express for server-side functionality.",
             "Template Engine Integration: Implemented EJS for dynamic HTML rendering, enhancing the user interface.",
