@@ -1,0 +1,42 @@
+.banner {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner > * {
+    margin: 0;
+}
+
+.banner h1 {
+    font-weight: 300;
+}
+
+.banner h2 {
+    font-weight: 200;
+    text-align: center;
+}
+
+.table-of-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-of-contents h3 {
+    font-size: var(--section-title-font-size);
+    font-weight: 300;
+    margin: 0;
+}
+
+.table-of-contents ul {
+    padding: 0;
+}
+
+.table-of-contents li {
+    list-style: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-align: center;
+}
