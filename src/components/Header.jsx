@@ -10,7 +10,7 @@ const Header = () => {
 
                 <nav className={styles.nav}>
                     <ul>
-                        <li><a href="/about">About</a></li>
+                        {/* <li><a href="/about">About</a></li> */}
                         <li><a href="/contact">Contact</a></li>
                         <li><a href="/projects"></a>Projects</li>
                     </ul>
