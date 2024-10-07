@@ -2,8 +2,8 @@ import "./App.css";
 import {Outlet, RouterProvider, createBrowserRouter} from "react-router-dom";
 
 import Header from "./components/Header";
-// import Home from "./pages/Home";
-// import Projects from "./pages/Projects";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
 
 const Layout = () => {
   return (

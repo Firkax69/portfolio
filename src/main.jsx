@@ -12,12 +12,14 @@ import About from "./components/About.jsx"
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     
-    {/* <App/> */}
+    <App/>
     {/* <Header/> */}
     {/* <About/> */}
     {/* <Hero/> */}
     {/* <Skills/> */}
-    <ProjectShowcase/>
+    {/* <ProjectShowcase/> */}
+
+
 
   </StrictMode>,
 )
