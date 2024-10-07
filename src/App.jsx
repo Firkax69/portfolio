@@ -88,3 +88,5 @@ function App() {
 }
 
 export default App;
+
+// GPT this animation (dlya rozuminya)

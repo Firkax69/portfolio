@@ -6,14 +6,14 @@
 .projects-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 100px;
+    width: 95%;
+    margin: 0 auto;
 }
 
-.see-more {
-    margin-top: 64px;
-    font-size: 1.5rem;
-    width: 100%;
-    text-align: center;
+.project:nth-child(odd) .project-content-container {
+    flex-direction: row-reverse;
 }
 
 
