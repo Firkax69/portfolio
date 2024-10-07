@@ -5,7 +5,8 @@ import ProjectShowcase from "../components/ProjectShowcase";
 
 import styles from "./Home.module.css";
 
-import {featuredProjects} from "../data/projects.js";
+import projectsData from "../data/projects.js";
+const {featuredProjects} = projectsData;
 
 const Home = () => {
     return (

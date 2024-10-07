@@ -95,7 +95,7 @@ const SkillGroup = ({title, classname, skills}) => {
 const Skills = () => {
     return (
         <div className={styles["skills-section-container"]}>
-            <h2>Software Skills</h2>
+            <h2 className="section-title">Software Skills</h2>
             <div className={styles["skillgroup-container"]}>
                 {skillGroups.map((group) => {
                     return <SkillGroup key={group.title} {...group} />

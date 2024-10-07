@@ -1,6 +1,9 @@
 import ProjectShowcase from "../components/ProjectShowcase";
 import { Link } from "react-router-dom";
-import {featuredProjects, projects} from "../data/projects";
+
+import projectsData from "../data/projects.js"
+const {featuredProjects, projects} = projectsData;
+
 import styles from "./Projects.module.css";
 
 const notFeaturedProjects = projects.filter((project) => 
