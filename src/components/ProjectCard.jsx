@@ -1,4 +1,6 @@
-import styles from "./ProjectCard.module.css"
+import styles from "./ProjectCard.module.css";
+import { Link } from "react-router-dom";
+// import ProjectLinks from "./ProjectLinks";
 
 const Buttons = ({ live_link, repo_link }) => {
     return (
@@ -9,7 +11,7 @@ const Buttons = ({ live_link, repo_link }) => {
     )
 }
 
-const Project = ({
+const ProjectCard = ({
     title,
     description_short,
     description_long,
@@ -53,4 +55,4 @@ const Project = ({
     )
 };
 
-export default Project;
+export default ProjectCard;
