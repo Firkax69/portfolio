@@ -17,7 +17,7 @@ const Tagline = () => {
 const Headshot = () => {
     return (
         <div className={styles["headshot-container"]}>
-            <img className={styles.headshot} src={headshot} alt="Headshot of Ihor Kovalevskyi for CV application" />
+            {/* <img className={styles.headshot} src={headshot} alt="Headshot of Ihor Kovalevskyi for CV application" /> */}
             <ul className={styles["external-links-container"]}>
                 <li><a href="https://github.com/Firkax69?tab=repositories"><img className={styles.icon} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Github logo" /></a></li>
                 <li><a href="https://www.linkedin.com/in/kovalevskyi/"><img className={styles.icon} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" alt="LinkedIn logo" /></a></li>
