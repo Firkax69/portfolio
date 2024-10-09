@@ -12,7 +12,8 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 
 // Import the new ProjectDetails component
-// import ProjectDetails from "./pages/ProjectDetails";   
+import ProjectDetails from "./pages/ProjectDetails";   
+import Contact from "./pages/Contact";
 
 const pageVariants = {
   initial: {
@@ -74,7 +75,7 @@ const Layout = () => {
               }
             />
 
-            {/* <Route
+            <Route
               path="projects/:projectName"
               element={
                 <motion.div
@@ -87,7 +88,22 @@ const Layout = () => {
                   <ProjectDetails/>
                 </motion.div>
               }
-            /> */}
+            />
+
+            <Route
+              path="contact"
+              element={
+                <motion.div
+                  initial="initial"
+                  animate="in"
+                  exit="out"
+                  variants={pageVariants}
+                  transition={pageTransition}
+                >
+                  <Contact/>
+                </motion.div>
+              }
+            />
           </Routes>
         </AnimatePresence>
       </div>
@@ -108,3 +124,4 @@ function App() {
 export default App;
 
 // GPT this animation (dlya rozuminya)
+// also take course again on motion.div and Routes in react;
