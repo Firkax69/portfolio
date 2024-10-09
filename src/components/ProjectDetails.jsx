@@ -37,8 +37,6 @@ const ProjectDetails = () => {
 
                 <ProjectLinks {...project}/>
             </div>
-
-            <img src={project.img} alt="" className={styles.screenshot}/>
         </div>
     )
 }
