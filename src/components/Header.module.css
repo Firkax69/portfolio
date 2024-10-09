@@ -1,12 +1,15 @@
 .header {
+    box-sizing: border-box;
+    background-color: var(--background-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1.2rem 0;
 }
 
 .header a {
     color: inherit;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 .header .logo {
