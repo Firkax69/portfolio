@@ -1,0 +1,56 @@
+.content-container {
+    display: flex;
+    gap: 24px;
+    font-size: 1.2rem;
+}
+
+.connect-section h2 {
+    margin: 0;
+}
+
+.headshot {
+    object-fit: cover;
+    width: 40%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(133, 133, 133, 0.4),
+      0 6px 20px rgba(132, 132, 132, 0.3);
+}
+
+.contact-link {
+    text-decoration: underline;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.links .icon {
+    width: 20px;
+    filter: invert(0.9);
+}
+
+.links > * {
+    display: flex;
+    gap: 12px;
+}
+
+.links span {
+    color: var(--font-color);
+}
+
+@media (max-width: 750px) {
+    .content-container {
+      flex-direction: column;
+    }
+    .headshot {
+      width: 100%;
+    }
+    .links {
+      flex-direction: row;
+      justify-content: center;
+      gap: 36px;
+    }
+}
