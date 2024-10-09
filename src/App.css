@@ -8,6 +8,10 @@
     --section-title-font-size: 2rem;
 }
   
+.section-title {
+  font-size: var(--section-title-font-size);
+}
+
 @media (max-width: 750px) {
     .section-title {
       text-align: center;

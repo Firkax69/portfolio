@@ -52,6 +52,7 @@ const ContactForm = forwardRef((props, ref) => {
 const Headshot = ({focusEmailInput}) => {
     return (
         <div className={styles["headshot-group"]}>
+            {/* Need to change headshot to more fancy photo */}
             <img 
                 className={styles.headshot}
                 src={headshot} 
