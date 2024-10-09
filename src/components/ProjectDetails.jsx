@@ -17,6 +17,7 @@ const ProjectDetails = () => {
                 </div>
 
                 <p className={styles["description-long"]}>{project.description_long}</p>
+                <img src={project.img} alt="" className={styles.screenshot}/>
                 <h4 className={styles["features-header"]}>Features</h4>
                 <ul className={styles["features-list"]}>
                     {project.features.map((feature) => (
