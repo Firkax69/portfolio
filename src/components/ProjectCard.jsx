@@ -1,15 +1,6 @@
 import styles from "./ProjectCard.module.css";
 import { Link } from "react-router-dom";
-// import ProjectLinks from "./ProjectLinks";
-
-const Buttons = ({ live_link, repo_link }) => {
-    return (
-        <div className={styles.buttons}>
-            <a href={live_link}>Live Preview</a>
-            <a href={repo_link}>Github Repo</a>
-        </div>
-    )
-}
+import ProjectLinks from "./ProjectLinks";
 
 const ProjectCard = ({
     title,
@@ -37,6 +28,12 @@ const ProjectCard = ({
                         ))}
                     </ul>
                     
+                    <Link to={`/projects/${encodeURIComponent(name)}`}>
+                        <span className={`${styles["view-details-link"]}`}>
+                            View More Details
+                        </span>
+                    </Link>
+
                     <div className={styles["bottom-align"]}>
                         <div className={styles["tech-stack-container"]}>
                             <h4>Tech Stack</h4>
@@ -47,7 +44,7 @@ const ProjectCard = ({
                             </span>
                         </div>
 
-                        <Buttons {...{live_link, repo_link}}/>
+                        <ProjectLinks {...{live_link, repo_link}}/>
                     </div>
                 </div>
             </div>

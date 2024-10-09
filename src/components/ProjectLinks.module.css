@@ -1,0 +1,25 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 8px 24px;
+    font-size: 1rem;
+    color: inherit;
+    background-color: #0058d39b;
+    box-shadow: 0 4px 8px rgba(91, 91, 91, 0.3); /* Add box shadow */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons a:hover {
+    color: inherit;
+    background-color: #0055cc;
+}
