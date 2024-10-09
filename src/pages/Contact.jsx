@@ -13,7 +13,7 @@ const ContactForm = forwardRef((props, ref) => {
     }
 
     return (
-        <form>
+        <form onSubmit={handleSubmit}>
             <input 
                 type="text"
                 id = "email"
@@ -88,14 +88,21 @@ const Headshot = ({focusEmailInput}) => {
 const Contact = () => {
     const emailInputRef = useRef(null);
 
-    <div className={styles.container}>
-        <h1>Get in touch</h1>
-        <div className={styles.content}>
-            <Headshot focusEmailInput={focusEmailInput} />
-            <ContactForm ref={emailInputRef}/>
-        </div>
-    </div>
+    const focusEmailInput = () => {
+        if (emailInputRef.current) {
+            emailInputRef.current.focus();
+        }
+    }
 
+    return (
+        <div className={styles.container}>
+            <h1>Get in touch</h1>
+            <div className={styles.content}>
+                <Headshot focusEmailInput={focusEmailInput} />
+                <ContactForm ref={emailInputRef}/>
+            </div>
+        </div>
+    )
 }
 
 export default Contact;

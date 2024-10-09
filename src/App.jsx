@@ -12,7 +12,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 
 // Import the new ProjectDetails component
-import ProjectDetails from "./pages/ProjectDetails";   
+import ProjectDetails from "../src/components/ProjectDetails";   
 import Contact from "./pages/Contact";
 
 const pageVariants = {
