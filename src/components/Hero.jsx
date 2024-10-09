@@ -1,8 +1,8 @@
 // need to import personla front photo;
 import styles from './Hero.module.css';
 import email from '../assets/email-outline.svg';
-import CopyToClipboard from './CopyToClipboard';
 import headshot from "../assets/IMG_0725.JPG";
+import { Link } from 'react-router-dom';
 
 const Tagline = () => {
     return (
@@ -22,12 +22,9 @@ const Headshot = () => {
                 <li><a href="https://github.com/Firkax69?tab=repositories"><img className={styles.icon} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Github logo" /></a></li>
                 <li><a href="https://www.linkedin.com/in/kovalevskyi/"><img className={styles.icon} src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" alt="LinkedIn logo" /></a></li>
                 <li>
-                    <CopyToClipboard
-                        text="kovligo@gmail.com"
-                        message="Copied email to clipboard!"
-                    >
-                        <img className={styles.icon} src={email} alt="click to copy email address" />
-                    </CopyToClipboard>
+                    <Link to="/contact">
+                        <img className={styles.icon} src={email} alt="" />
+                    </Link>
                 </li>
             </ul>
         </div>
