@@ -1,8 +1,11 @@
 .hero {
     display: flex;
     gap: 40px;
-    margin-top: 24px;
     align-items: last baseline;
+}
+
+.hero hr:first-of-type {
+    margin-top: 0;
 }
 
 .tagline-container {
