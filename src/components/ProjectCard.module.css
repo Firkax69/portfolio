@@ -25,9 +25,7 @@
 .screenshot {
     /* Images are not displayed fully, either CSS every image separately or make 
     screenshot of the same size so can style them all in one code in this section */
-    
-    
-    /* flex-grow: 1; */
+        
     object-fit: cover;
     object-position: left;
     width: 40%;
@@ -94,6 +92,7 @@
 @media (max-width: 1064px) {
     .project {
       height: 580;
+      /* box-sizing: border-box; */
       border-radius: 24px;
       overflow: hidden;
       background-color: rgba(0, 0, 0, 0.242);
@@ -146,10 +145,7 @@
       display: none;
     }
 
-
-
     .bottom-align {
-      /* justify-self: flex-end; */
       flex-grow: 1;
       display: flex;
       flex-direction: column;
