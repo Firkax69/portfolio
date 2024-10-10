@@ -32,7 +32,7 @@ const Connect = () => {
                             Send me an email
                         </Link>
 
-                        or connect with me elsewhere on the web...
+                        {" "}or connect with me elsewhere on the web...
                     </p>
 
                     <Links />

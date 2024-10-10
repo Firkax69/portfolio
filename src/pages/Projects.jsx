@@ -5,6 +5,7 @@ import projectsData from "../data/projects.js"
 const {featuredProjects, projects} = projectsData;
 
 import styles from "./Projects.module.css";
+import { ul } from "framer-motion/client";
 
 const notFeaturedProjects = projects.filter((project) => 
     !project.featured);
@@ -19,18 +20,33 @@ const Banner = () => {
 };
 
 const TableOfContents = ({projects}) => {
+
+    const ProjectList = ({projects}) => (
+        <ul>
+            {projects.map((project) => (
+                <li key={project.name}>
+                    <Link to={project.name} smooth={true} duration={500} offset={-30}>
+                        {project.title}
+                    </Link>
+                </li>
+            ))}
+        </ul>
+    );
+
     return (
         <div className={styles["table-of-contents"]}>
             <h3>Table of Contents</h3>
-            <ul>
-                {projects.map((project) => (
-                    <li key={project.name}>
-                        <Link to={project.name} smooth={true} duration={500} offset={-30}>
-                            {project.title}
-                        </Link>
-                    </li>
-                ))}
-            </ul>
+            <div className={styles["toc-container"]}>
+                <div className={styles["toc-column"]}>
+                    <h4 style={{textAlign: "center"}}>Web</h4>
+                    <ProjectList
+                        {...{
+                            projects:projects,
+                        }}
+                    />
+                </div>
+
+            </div>
         </div>
     )
 }

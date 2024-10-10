@@ -1,5 +1,8 @@
 import { useParams } from "react-router-dom";
-import projects from "../data/projects";
+
+import projectsData from "../data/projects";
+const {projects} = projectsData;
+
 import ProjectLinks from "../components/ProjectLinks";
 import styles from "./ProjectDetails.module.css";
 
@@ -7,6 +10,10 @@ const ProjectDetails = () => {
     //  ????????? this two lines
     const {projectName} = useParams();
     const project = projects.find((proj) => proj.name === projectName);
+
+    if (!project) {
+        return <div>Project not found</div>;
+    }
 
     return (
         <div className={styles["project-content-container"]}>
@@ -27,11 +34,13 @@ const ProjectDetails = () => {
                 <div className={styles["tech-stack-container"]}>
                     <h4>Tech Stack</h4>
                     <span>
-                        {projects.tech.reduce((acc, curr, idx) => {
+                        {project.tech.join(", ")}
+
+                        {/* {projects.tech.reduce((acc, curr, idx) => {
                             return (
                                 acc + " " + curr + (idx < project.tech.length - 1 ? "," : "")
                             )
-                        }, "")}
+                        }, "")} */}
                     </span>
                 </div>
 

@@ -11,8 +11,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 
-// Import the new ProjectDetails component
-import ProjectDetails from "../src/components/ProjectDetails";   
+import ProjectDetails from "../src/pages/ProjectDetails";   
 import Contact from "./pages/Contact";
 
 const ScrollToTop = () => {
