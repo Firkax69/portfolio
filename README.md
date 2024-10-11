@@ -29,3 +29,5 @@ Step 4: Remove the Empty Directory $ rm -rf my-first-react-app
 Step 5: Install Dependencies $ npm install
 
 Step 6: Start the Development Server $ npm run dev
+
+![screen](https://github.com/user-attachments/assets/dc6447f3-19c0-4ecc-be13-624a95f5ac03)
