@@ -18,18 +18,18 @@ My personal website showcasing my previous projects, built using HTML, CSS, Java
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
 
-### Run It Locally:
+## Run It Locally:
 
-### Clone this repository
+## Clone this repository
 $ git clone git@github.com:Firkax69/portfolio.git
 
-### Go into the repository
+## Go into the repository
 $ cd portfolio/
 
-### Install dependencies
+## Install dependencies
 $ npm install
 
-### Start development server
+## Start development server
 $ npm run dev
 
 
