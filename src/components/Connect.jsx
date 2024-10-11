@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import headshot from "../assets/IMG_0725.JPG"
+import headshot2 from "../assets/IMG_3129.jpg"
 import styles from "./Connect.module.css";
 
 const Links = () => {
@@ -24,7 +24,7 @@ const Connect = () => {
     return (
         <div className={styles["connect-section"]}>
             <h2 className="section-title">Let's Connect</h2>
-            <div className={styles["connect-container"]}>
+            <div className={styles["content-container"]}>
                 <div className={styles["text-container"]}>
                     <p>Have project in mind? let's get in touch. Feel free to contact to get some advice or to chat about coding or engineering.</p>
                     <p>
@@ -38,7 +38,7 @@ const Connect = () => {
                     <Links />
                 </div>
 
-                <img className={styles["headshot"]} src={headshot} alt="" />
+                <img className={styles["headshot"]} src={headshot2} alt="" />
             </div>
         </div>
     )
