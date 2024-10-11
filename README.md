@@ -1,6 +1,6 @@
 # PORTFOLIO
 
-## 👉 See it live [here](url)
+👉 See it live [here](url)
 
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
@@ -10,26 +10,26 @@ My personal website showcasing my previous projects, built using HTML, CSS, Java
 
 ## 💡 Features:
 
-*Built with modern JavaScript, React and CSS<br/>
-*Responsive design<br/>
-*A React implementation<br/>
-*Mobile version support<br/>
+1. Built with modern JavaScript, React and CSS<br/>
+2. Responsive design<br/>
+3. A React implementation<br/>
+4. Mobile version support<br/>
     
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
 
 ## Run It Locally:
 
-## Clone this repository
+Clone this repository<br/>
 $ git clone git@github.com:Firkax69/portfolio.git
 
-## Go into the repository
+Go into the repository<br/>
 $ cd portfolio/
 
-## Install dependencies
+Install dependencies<br/>
 $ npm install
 
-## Start development server
+Start development server<br/>
 $ npm run dev
 
 
