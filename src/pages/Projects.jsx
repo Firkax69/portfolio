@@ -1,5 +1,5 @@
 import ProjectShowcase from "../components/ProjectShowcase";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 import projectsData from "../data/projects.js"
 const {featuredProjects, projects} = projectsData;
@@ -7,8 +7,7 @@ const {featuredProjects, projects} = projectsData;
 import styles from "./Projects.module.css";
 import { ul } from "framer-motion/client";
 
-const notFeaturedProjects = projects.filter((project) => 
-    !project.featured);
+const notFeaturedProjects = projects.filter((project) => !project.featured);
 
 const Banner = () => {
     return (
@@ -52,7 +51,7 @@ const TableOfContents = ({projects}) => {
 }
 
 const Projects = () => {
-    const orderedProjects = [...featuredProjects, notFeaturedProjects];
+    const orderedProjects = [...featuredProjects, ...notFeaturedProjects];
 
     return (
         <>
