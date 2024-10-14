@@ -13,3 +13,12 @@
 .paragraphs > div {
     flex-grow: 1;
 }
+
+/* Media queries */ 
+
+@media (max-width: 750px) {
+    .paragraphs {
+        flex-direction: column;
+        gap: 0;
+    }
+}

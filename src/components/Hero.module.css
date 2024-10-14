@@ -20,6 +20,11 @@
     font-size: 1.2rem;
 }
 
+.headshot-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .headshot {
     object-fit: cover;
     width: 400px;
@@ -45,4 +50,30 @@
 .headshot-container .icon {
     width: 30px;
     filter: invert(0.9);
-  }
+}
+
+@media (min-width: 750px) and (max-width: 900px) {
+    .headshot {
+        width: calc(0.75*400px);
+        height: calc(0.75*600px);
+    }
+}
+
+
+@media (max-width: 750px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .headshot-container {
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: 24px;
+    }
+
+    .headshot {
+        width: 100%;
+    }
+}
