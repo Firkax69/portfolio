@@ -6,7 +6,8 @@ import headshot from "../assets/IMG_0725.JPG";
 import email from "../assets/email-outline.svg";
 
 const ContactForm = forwardRef((props, ref) => {
-    const [state, handleSubmit] = useForm("mjvnnqav");
+    // Personal ID from formspree account to receive email notifications
+    const [state, handleSubmit] = useForm("xdkoodlq");
 
     if (state.succeeded) {
         return <p>Thank you fro your message! I will get back to you shortly.</p>
