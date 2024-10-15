@@ -44,8 +44,9 @@ const TableOfContents = ({projects}) => {
                         }}
                     />
                 </div>
-
             </div>
+
+            
         </div>
     )
 }

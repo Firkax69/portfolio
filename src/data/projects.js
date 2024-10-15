@@ -2,6 +2,7 @@ import CVgenerator from "../data/CVgeneratorScreenshot.png";
 import ToDoList from "../data/ToDo-list-screen.png";
 import MessageBoard from "../data/MessageBoard-screenshots.png";
 import WeatherApp from "../data/weatherApp-screen.png";
+import Calculator from "../data/calc-screen.png";
 
 const projects = [
     {
@@ -75,6 +76,23 @@ const projects = [
         name: "message-board",
     },
 
+    {
+        title: "Calculator JS",
+        description_short: "Simple calculator app built on plain JavaScript",
+        description_long: "An online calculator with basic arithmetic operations built using HTML5, CSS3 and JS ES6 features. It can be controlled by a mouse only",
+        features: [
+            "All basic operations are supported (divide, multiple, add, subtract)",
+            "Only mouse input supported",
+            "Comes with options to clear/delete a single input OR clear the whole display",
+        ],
+        tech: ["HTML", "CSS", "JavaScript"],
+        img: Calculator,
+        featured: true,
+        repo_link: "https://github.com/Firkax69/odin-calculator-2", 
+        live_link: "https://firkax69.github.io/odin-calculator-2/",
+        name: "calculator-js",
+    },
+
     // {
     //     title: ,
     //     description: 
@@ -84,8 +102,10 @@ const projects = [
     //     ],
     //     tech: [],
     //     img: ,
+    // featured: false,
     //     repo_link: , 
     //     live_link: ,
+    //     name: ,
     // },
 
     // Need to add a few more projects, screens already added for WEather API and MessageBoard;
