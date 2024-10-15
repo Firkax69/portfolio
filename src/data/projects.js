@@ -3,6 +3,7 @@ import ToDoList from "../data/ToDo-list-screen.png";
 import MessageBoard from "../data/MessageBoard-screenshots.png";
 import WeatherApp from "../data/weatherApp-screen.png";
 import Calculator from "../data/calc-screen.png";
+import TicTacToe from "../data/tictac-screen.png";
 
 const projects = [
     {
@@ -91,6 +92,23 @@ const projects = [
         repo_link: "https://github.com/Firkax69/odin-calculator-2", 
         live_link: "https://firkax69.github.io/odin-calculator-2/",
         name: "calculator-js",
+    },
+
+    {
+        title: "Tic-Tac-Toe JS",
+        description_short: "Classical Tic-Tac-Toe game build on simple JS",
+        description_long: "One of my first featured project build using plain JavaScript. Simple, classical, mouse controlled Tic-Tac-Toe game",
+        features: [
+            "Play against CPU bot",
+            "Play with a second person",
+            "Mouse controlled game",
+        ],
+        tech: ["HTML", "CSS", "JavaScript"],
+        img: TicTacToe,
+        featured: true,
+        repo_link: "https://github.com/Firkax69/project_Tic-Tac-Toe", 
+        live_link: "https://firkax69.github.io/project_Tic-Tac-Toe/",
+        name: "tic-tac-toe",
     },
 
     // {
