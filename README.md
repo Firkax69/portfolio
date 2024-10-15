@@ -1,6 +1,6 @@
 # PORTFOLIO
 
-👉 See it live [here](url)
+👉 See it live [here](https://ihorkovalevskyi.netlify.app/)
 
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
