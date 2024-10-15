@@ -21,20 +21,25 @@ My personal website showcasing my previous projects, built using HTML, CSS, Java
 ## Run It Locally:
 
 Clone this repository<br/>
-$ git clone git@github.com:Firkax69/portfolio.git
+`$ git clone git@github.com:Firkax69/portfolio.git`
 
 Go into the repository<br/>
-$ cd portfolio/
+`$ cd portfolio/`
 
 Install dependencies<br/>
-$ npm install
+`$ npm install`
 
 Start development server<br/>
-$ npm run dev
+`$ npm run dev`
 
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
 
 ## Screenshots:
 
+`Web-site screenshot:`
 ![screen](https://github.com/user-attachments/assets/dc6447f3-19c0-4ecc-be13-624a95f5ac03)
+
+`Code-screenshot:`
+![code-screen](https://github.com/user-attachments/assets/12ee427b-a30e-4b36-afd2-2c98de152d9f)
+
