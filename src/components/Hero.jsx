@@ -9,7 +9,13 @@ const Tagline = () => {
         <div className={styles["tagline-container"]}>
             <hr />
             <h1>Adaptable,resilent and passionate about overcoming complex challenges.</h1>
-            <p>I am Ihor, a fomer Logistics Operations Manager and double glazing Contract Manager. Currently buidling a new career as a webdeveloper. I have got full-stack web development skills with a passion for the complexities of backend design.</p>
+            <p>
+                Deeply invested in the life-long learning mentality, 
+                and I'm on my way to become a full-stack developer.
+                My focus is in creating responsive layouts on the JavaScript 
+                stack of React and NodeJS, and from my background as an mechanical design engineer 
+                I'm well acquainted to bringing out solutions to complex problems.
+            </p>
         </div>
     )
 }
