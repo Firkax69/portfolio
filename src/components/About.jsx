@@ -28,10 +28,8 @@ const About = () => {
                         As a full-stack developer, I am passionate about creating robust,
                         user-friendly applications with well-organized code. I excel in
                         technical presentation and communication, ensuring that complex
-                        ideas are effectively conveyed to the targeted audience. Whether
-                        it's developing web applications, optimizing performance, or
-                        implementing new features, I am committed to excellence in every
-                        aspect of my work.
+                        ideas are effectively conveyed to the targeted audience.
+                        I am committed to excellence in every aspect of my work.
                     </p>
                     <p>I'm always excited to take on new challenges and collaborate with
                       others who share my passion for technology. Let's connect and make
