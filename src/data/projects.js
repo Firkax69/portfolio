@@ -1,6 +1,6 @@
 import CVgenerator from "../data/CVgeneratorScreenshot.png";
 import ToDoList from "../data/ToDo-list-screen.png";
-import MessageBoard from "../data/MessageBoard-screenshots.png";
+import MessageBoard from "../data/code-screen-message-node.png";
 import WeatherApp from "../data/weatherApp-screen.png";
 import Calculator from "../data/calc-screen.png";
 import TicTacToe from "../data/tictac-screen.png";
