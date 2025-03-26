@@ -11,7 +11,7 @@ My personal website showcasing my previous projects, built using HTML, CSS, Java
 ## 💡 Features:
 
 1. Built with modern JavaScript, React and CSS <br/>
-2. Responsive design<br/>
+2. Responsive design <br/>
 3. A React implementation <br/>
 4. Mobile version support <br/>
     
