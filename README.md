@@ -6,7 +6,7 @@
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
 
 
-My personal website showcasing my previous projects, built using HTML, CSS, JavaScript & React.
+My personal website showcasing my previous projects, built using HTML, CSS, JavaScript & React
 
 ## 💡 Features:
 
