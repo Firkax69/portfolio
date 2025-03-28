@@ -38,7 +38,7 @@ Start development server<br/>
 ## Screenshots:
 
 `Web-site screenshot:`
-<br/>
+ <br/>
 
 
 ![screen](https://github.com/user-attachments/assets/dc6447f3-19c0-4ecc-be13-624a95f5ac03)
